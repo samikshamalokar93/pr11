@@ -1,0 +1,48 @@
+/* Body */
+body {
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+/* Table */
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: #fff8dc;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* Table cells */
+td {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Input fields */
+input[type="text"] {
+    padding: 8px;
+    width: 180px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons */
+input[type="button"] {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: darkgreen;
+}
